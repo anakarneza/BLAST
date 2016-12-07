@@ -34,8 +34,8 @@ class Step1:
         self.font = pygame.font.Font(None, 30)
         text = self.font.render(self.word, True, self.word_color)
         self.text_rect = text.get_rect(center=(self.screensize[0] / 2, (self.screensize[1] / 2)))
-        screen.blit(text, self.text_rect)
-
+        screen.blit(text, self.text_rect) 
+HELO
 
 
     # def sound(self,file):
